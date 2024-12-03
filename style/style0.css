@@ -1,0 +1,88 @@
+body {
+    background-color:ffffff
+}
+
+
+
+.colica{
+    text-align: center;
+    color: orange
+
+    
+}
+
+.lindoo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;  
+    font-size: 35px;
+    line-height: 1.6;
+
+} 
+
+.meubem{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: orange;
+    
+}
+
+
+.loucura{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.afee{
+    display: flex;
+    padding: 20px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.afee img{
+    margin: 15px;
+    display: flex;
+    margin-left: 15%;
+    gap: 20PX   ;
+}
+
+.lorena{
+    
+    
+}
+.raiva{
+    display: flex;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .lindoo {
+       
+        font-size: 1.8rem; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .afee img{
+        width: 300px;
+        gap: 10px; /* Ajusta o espaço entre os itens em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .lindoo {
+        font-size: 1.5rem; /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .afee {
+        flex-direction: column; /* Muda a direção dos itens para coluna em telas muito pequenas */
+    }
+}
+
+
+

@@ -1,0 +1,95 @@
+body {
+    background-image: url('ARAUJO.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 100vh; /* Define a altura do body para 100% da altura da viewport */
+    margin: 0; /* Remove margens padrão */
+    color: rgb(255, 255, 255); /* Muda a cor do texto para branco para melhor contraste */
+}
+
+.zé
+ {
+    height: 400px;
+    width: 300px;
+ }
+ .rhi
+ {
+    height: 200px;
+    width: 100px;
+ 
+
+ }
+.nii
+{
+
+    height: 300px;
+    width: 200px;
+}
+
+.felipe
+{
+    height: 400px;
+    width: 300px;
+}
+
+.iris
+{
+    height: 400px;
+    width: 300px;  
+}
+
+.thay
+{
+    height: 400px;
+    width: 300px;
+} 
+
+
+
+.daniel
+{
+    height: 400px;
+    width: 300px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    
+    gap: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+
+}
+
+.container img {
+    width: 200px;
+    height: 280px;
+}
+
+.fotos01{
+    display: flex; 
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+body{
+    background-color: rgb(221, 146, 48);
+    
+}
+
+.imagem-com-borda {
+    border: 5px solid rgb(221, 146, 48) ;
+}
+
+figure{
+    text-align: center;
+    width: 200px;
+}
